@@ -163,7 +163,7 @@ struct FillInBlankQuestionView: View {
                 )
                 .focused($isTextFieldFocused)
                 .disabled(showExplanation)
-                .onChange(of: userAnswer) { newValue in
+                .onChange(of: userAnswer) { _, newValue in
                     onAnswerChanged(newValue)
                 }
                 .submitLabel(.done)

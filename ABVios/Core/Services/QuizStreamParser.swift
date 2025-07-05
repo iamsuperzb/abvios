@@ -115,7 +115,7 @@ class QuizStreamParser {
         // Check for complete first question
         let hasQuestionText = text.range(of: #""question"\s*:\s*"[^"]+"#, 
                                         options: .regularExpression) != nil
-        let hasOptionsStart = text.range(of: #""options"\s*:\s*\[#, 
+        let hasOptionsStart = text.range(of: #""options"\s*:\s*\["#, 
                                        options: .regularExpression) != nil
         let hasAtLeastOneOption = text.range(of: #""text"\s*:\s*"[^"]+"\s*,\s*"is_correct"\s*:\s*(true|false|"true"|"false")"#, 
                                            options: .regularExpression) != nil
@@ -200,12 +200,12 @@ class QuizStreamParser {
             question: question,
             hint: hint,
             options: options,
-            items: nil,
-            pairs: nil,
-            correctAnswer: nil,
-            explanation: nil,
-            cardTrigger: nil,
-            examinerId: nil
+            items: [],
+            pairs: [],
+            correctAnswer: "",
+            explanation: "",
+            cardTrigger: "",
+            examinerId: ""
         )
     }
     
@@ -235,7 +235,7 @@ class QuizStreamParser {
                         id: UUID().uuidString,
                         text: optionText,
                         isCorrect: isCorrect,
-                        explanation: explanation
+                        explanation: explanation ?? ""
                     ))
                 }
             }

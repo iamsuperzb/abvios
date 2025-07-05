@@ -19,7 +19,7 @@ class BibleAdventureViewModel: ObservableObject {
     // MARK: - Services
     private let apiService = APIService.shared
     private let cacheService = CacheService.shared
-    private let authService = AuthService.shared
+    let authService = AuthService.shared
     private let userIdentityManager = UserIdentityManager.shared
     
     // MARK: - Private Properties

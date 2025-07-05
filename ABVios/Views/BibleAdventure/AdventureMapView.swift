@@ -83,11 +83,11 @@ struct AdventurePathView: View {
                 // Create bezier curve path
                 for i in 0..<(unitPath.chapters.count - 1) {
                     let start = CGPoint(
-                        x: unitPath.chapters[i].position.x * size.width / 100,
+                        x: unitPath.chapters[i].position.x * size.width / 100.0,
                         y: unitPath.chapters[i].position.y * 10
                     )
                     let end = CGPoint(
-                        x: unitPath.chapters[i + 1].position.x * size.width / 100,
+                        x: unitPath.chapters[i + 1].position.x * size.width / 100.0,
                         y: unitPath.chapters[i + 1].position.y * 10
                     )
                     

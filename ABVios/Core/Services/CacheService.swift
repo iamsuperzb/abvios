@@ -190,7 +190,7 @@ class CacheService {
     /// Update cached progress
     func updateCachedProgress(userId: String, lessonId: String, progress: UserProgress) async {
         // Get existing cached data
-        guard var cachedData = await getAdventureData(userId: userId) else { return }
+        guard let cachedData = await getAdventureData(userId: userId) else { return }
         
         // Update progress
         var updatedProgress = cachedData.userProgress

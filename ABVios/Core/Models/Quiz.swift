@@ -48,6 +48,23 @@ struct Question: Codable, Identifiable {
         self.examinerId = try container.decodeIfPresent(String.self, forKey: .examinerId)
     }
     
+    // Convenience initializer for previews and testing
+    init(id: String, type: QuestionType, question: String, hint: String?, 
+         options: [Option]?, items: [QuestionItem]?, pairs: [MatchPair]?, 
+         correctAnswer: String?, explanation: String?, cardTrigger: String?, examinerId: String?) {
+        self.id = id
+        self.type = type
+        self.question = question
+        self.hint = hint
+        self.options = options
+        self.items = items
+        self.pairs = pairs
+        self.correctAnswer = correctAnswer
+        self.explanation = explanation
+        self.cardTrigger = cardTrigger
+        self.examinerId = examinerId
+    }
+    
     private enum CodingKeys: String, CodingKey {
         case id, type, question, hint, options, items, pairs
         case correctAnswer = "correct_answer"
@@ -100,6 +117,14 @@ struct Option: Codable, Identifiable {
         }
         
         self.explanation = try container.decodeIfPresent(String.self, forKey: .explanation)
+    }
+    
+    // Convenience initializer for previews and testing
+    init(id: String, text: String, isCorrect: Bool, explanation: String?) {
+        self.id = id
+        self.text = text
+        self.isCorrect = isCorrect
+        self.explanation = explanation
     }
     
     private enum CodingKeys: String, CodingKey {

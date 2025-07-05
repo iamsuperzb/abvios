@@ -168,7 +168,7 @@ struct TabBarButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .contentShape(Rectangle())
-            .onChange(of: configuration.isPressed) { newValue in
+            .onChange(of: configuration.isPressed) { _, newValue in
                 withAnimation(.spring(response: 0.3, dampingFraction: 0.7)) {
                     isPressed = newValue
                 }

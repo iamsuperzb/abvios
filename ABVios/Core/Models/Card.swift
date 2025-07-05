@@ -1,5 +1,5 @@
 import Foundation
-import UIKit
+import SwiftUI
 
 // MARK: - Card Model
 struct Card: Codable, Identifiable {
@@ -34,23 +34,23 @@ struct Card: Codable, Identifiable {
             }
         }
         
-        var color: UIColor {
+        var color: Color {
             switch self {
-            case .C: return UIColor(red: 0.61, green: 0.64, blue: 0.69, alpha: 1.0) // gray-400
-            case .R: return UIColor(red: 0.38, green: 0.65, blue: 0.98, alpha: 1.0) // blue-400
-            case .SR: return UIColor(red: 0.65, green: 0.55, blue: 0.98, alpha: 1.0) // purple-400
-            case .SSR: return UIColor(red: 0.98, green: 0.75, blue: 0.14, alpha: 1.0) // yellow-400
-            case .UR: return UIColor(red: 0.97, green: 0.44, blue: 0.44, alpha: 1.0) // red-400
+            case .C: return Color(red: 0.61, green: 0.64, blue: 0.69) // gray-400
+            case .R: return Color(red: 0.38, green: 0.65, blue: 0.98) // blue-400
+            case .SR: return Color(red: 0.65, green: 0.55, blue: 0.98) // purple-400
+            case .SSR: return Color(red: 0.98, green: 0.75, blue: 0.14) // yellow-400
+            case .UR: return Color(red: 0.97, green: 0.44, blue: 0.44) // red-400
             }
         }
         
-        var glowColor: UIColor {
+        var glowColor: Color {
             switch self {
-            case .C: return UIColor(red: 0.61, green: 0.64, blue: 0.69, alpha: 0.5)
-            case .R: return UIColor(red: 0.38, green: 0.65, blue: 0.98, alpha: 0.6)
-            case .SR: return UIColor(red: 0.65, green: 0.55, blue: 0.98, alpha: 0.7)
-            case .SSR: return UIColor(red: 0.98, green: 0.75, blue: 0.14, alpha: 0.8)
-            case .UR: return UIColor(red: 0.97, green: 0.44, blue: 0.44, alpha: 0.9)
+            case .C: return Color(red: 0.61, green: 0.64, blue: 0.69, opacity: 0.5)
+            case .R: return Color(red: 0.38, green: 0.65, blue: 0.98, opacity: 0.6)
+            case .SR: return Color(red: 0.65, green: 0.55, blue: 0.98, opacity: 0.7)
+            case .SSR: return Color(red: 0.98, green: 0.75, blue: 0.14, opacity: 0.8)
+            case .UR: return Color(red: 0.97, green: 0.44, blue: 0.44, opacity: 0.9)
             }
         }
     }
@@ -60,6 +60,25 @@ struct Card: Codable, Identifiable {
         case location = "location"
         case event = "event"
         case artifact = "artifact"
+    }
+    
+    // Convenience initializer for previews and testing
+    init(id: String, cardId: String, name: String, title: String, rarity: Rarity, 
+         description: String?, imageUrl: String?, keyVerse: String?, bookName: String, 
+         cardType: CardType, unlockChapter: Int, evolutionChainId: String?, evolutionStage: Int?) {
+        self.id = id
+        self.cardId = cardId
+        self.name = name
+        self.title = title
+        self.rarity = rarity
+        self.description = description
+        self.imageUrl = imageUrl
+        self.keyVerse = keyVerse
+        self.bookName = bookName
+        self.cardType = cardType
+        self.unlockChapter = unlockChapter
+        self.evolutionChainId = evolutionChainId
+        self.evolutionStage = evolutionStage
     }
     
     init(from decoder: Decoder) throws {
