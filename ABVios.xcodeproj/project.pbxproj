@@ -7,242 +7,242 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10001001F8A0A8C00000001 /* ABViosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001001F8A0A8C00000001 /* ABViosApp.swift */; };
-		A10001021F8A0A8C00000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10001021F8A0A8C00000002 /* ContentView.swift */; };
-		A10001041F8A0A8C00000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001041F8A0A8C00000003 /* Assets.xcassets */; };
-		A10001081F8A0A8C00000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10001081F8A0A8C00000004 /* Preview Assets.xcassets */; };
-		A20001001F8A0A8C00000010 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001001F8A0A8C00000010 /* Chapter.swift */; };
-		A20001021F8A0A8C00000011 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001021F8A0A8C00000011 /* Quiz.swift */; };
-		A20001041F8A0A8C00000012 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001041F8A0A8C00000012 /* User.swift */; };
-		A20001061F8A0A8C00000013 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001061F8A0A8C00000013 /* Card.swift */; };
-		A30001001F8A0A8C00000020 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30001001F8A0A8C00000020 /* APIService.swift */; };
-		A30001021F8A0A8C00000021 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30001021F8A0A8C00000021 /* AuthService.swift */; };
-		A30001041F8A0A8C00000022 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30001041F8A0A8C00000022 /* CacheService.swift */; };
-		A30001061F8A0A8C00000023 /* UserIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30001061F8A0A8C00000023 /* UserIdentityManager.swift */; };
-		A30001081F8A0A8C00000024 /* QuizStreamParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30001081F8A0A8C00000024 /* QuizStreamParser.swift */; };
-		A40001001F8A0A8C00000030 /* BibleAdventureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40001001F8A0A8C00000030 /* BibleAdventureViewModel.swift */; };
-		A40001021F8A0A8C00000031 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40001021F8A0A8C00000031 /* QuizViewModel.swift */; };
-		A40001041F8A0A8C00000032 /* ScoringSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40001041F8A0A8C00000032 /* ScoringSystem.swift */; };
-		A50001001F8A0A8C00000040 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50001001F8A0A8C00000040 /* Constants.swift */; };
-		A50001021F8A0A8C00000041 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50001021F8A0A8C00000041 /* Extensions.swift */; };
-		A50001041F8A0A8C00000042 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50001041F8A0A8C00000042 /* Helpers.swift */; };
-		A60001001F8A0A8C00000050 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60001001F8A0A8C00000050 /* TabView.swift */; };
-		A60001021F8A0A8C00000051 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60001021F8A0A8C00000051 /* StudyView.swift */; };
-		A60001041F8A0A8C00000052 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60001041F8A0A8C00000052 /* PlaceholderViews.swift */; };
-		A70001001F8A0A8C00000060 /* AdventureMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70001001F8A0A8C00000060 /* AdventureMapView.swift */; };
-		A70001021F8A0A8C00000061 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70001021F8A0A8C00000061 /* TopBarView.swift */; };
-		A70001041F8A0A8C00000062 /* CardUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70001041F8A0A8C00000062 /* CardUnlockView.swift */; };
-		A80001001F8A0A8C00000070 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80001001F8A0A8C00000070 /* QuizView.swift */; };
-		A80001021F8A0A8C00000071 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80001021F8A0A8C00000071 /* QuestionView.swift */; };
-		A80001041F8A0A8C00000072 /* QuestionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80001041F8A0A8C00000072 /* QuestionTypes.swift */; };
-		A80001061F8A0A8C00000073 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80001061F8A0A8C00000073 /* QuizResultView.swift */; };
-		A90001001F8A0A8C00000080 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90001001F8A0A8C00000080 /* LoginView.swift */; };
-		AB0001001F8A0A8C00000090 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AB0001001F8A0A8C00000090 /* SDWebImageSwiftUI */; };
+		1A0001001F8A0A8C00000001 /* ABViosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001001F8A0A8C00000001 /* ABViosApp.swift */; };
+		1A0001021F8A0A8C00000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0001021F8A0A8C00000002 /* ContentView.swift */; };
+		1A0001041F8A0A8C00000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0001041F8A0A8C00000003 /* Assets.xcassets */; };
+		1A0001081F8A0A8C00000004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0001081F8A0A8C00000004 /* Preview Assets.xcassets */; };
+		1A2001001F8A0A8C00000010 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2001001F8A0A8C00000010 /* Chapter.swift */; };
+		1A2001021F8A0A8C00000011 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2001021F8A0A8C00000011 /* Quiz.swift */; };
+		1A2001041F8A0A8C00000012 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2001041F8A0A8C00000012 /* User.swift */; };
+		1A2001061F8A0A8C00000013 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2001061F8A0A8C00000013 /* Card.swift */; };
+		1A3001001F8A0A8C00000020 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3001001F8A0A8C00000020 /* APIService.swift */; };
+		1A3001021F8A0A8C00000021 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3001021F8A0A8C00000021 /* AuthService.swift */; };
+		1A3001041F8A0A8C00000022 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3001041F8A0A8C00000022 /* CacheService.swift */; };
+		1A3001061F8A0A8C00000023 /* UserIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3001061F8A0A8C00000023 /* UserIdentityManager.swift */; };
+		1A3001081F8A0A8C00000024 /* QuizStreamParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3001081F8A0A8C00000024 /* QuizStreamParser.swift */; };
+		1A4001001F8A0A8C00000030 /* BibleAdventureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4001001F8A0A8C00000030 /* BibleAdventureViewModel.swift */; };
+		1A4001021F8A0A8C00000031 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4001021F8A0A8C00000031 /* QuizViewModel.swift */; };
+		1A4001041F8A0A8C00000032 /* ScoringSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4001041F8A0A8C00000032 /* ScoringSystem.swift */; };
+		1A5001001F8A0A8C00000040 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5001001F8A0A8C00000040 /* Constants.swift */; };
+		1A5001021F8A0A8C00000041 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5001021F8A0A8C00000041 /* Extensions.swift */; };
+		1A5001041F8A0A8C00000042 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5001041F8A0A8C00000042 /* Helpers.swift */; };
+		1A6001001F8A0A8C00000050 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6001001F8A0A8C00000050 /* TabView.swift */; };
+		1A6001021F8A0A8C00000051 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6001021F8A0A8C00000051 /* StudyView.swift */; };
+		1A6001041F8A0A8C00000052 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6001041F8A0A8C00000052 /* PlaceholderViews.swift */; };
+		1A7001001F8A0A8C00000060 /* AdventureMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7001001F8A0A8C00000060 /* AdventureMapView.swift */; };
+		1A7001021F8A0A8C00000061 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7001021F8A0A8C00000061 /* TopBarView.swift */; };
+		1A7001041F8A0A8C00000062 /* CardUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7001041F8A0A8C00000062 /* CardUnlockView.swift */; };
+		1A8001001F8A0A8C00000070 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8001001F8A0A8C00000070 /* QuizView.swift */; };
+		1A8001021F8A0A8C00000071 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8001021F8A0A8C00000071 /* QuestionView.swift */; };
+		1A8001041F8A0A8C00000072 /* QuestionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8001041F8A0A8C00000072 /* QuestionTypes.swift */; };
+		1A8001061F8A0A8C00000073 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8001061F8A0A8C00000073 /* QuizResultView.swift */; };
+		1A9001001F8A0A8C00000080 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9001001F8A0A8C00000080 /* LoginView.swift */; };
+		1AB001001F8A0A8C00000090 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB001001F8A0A8C00000090 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000FF1F8A0A8C00000000 /* ABVios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABVios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10001001F8A0A8C00000001 /* ABViosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABViosApp.swift; sourceTree = "<group>"; };
-		A10001021F8A0A8C00000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A10001041F8A0A8C00000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A10001081F8A0A8C00000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A20001001F8A0A8C00000010 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
-		A20001021F8A0A8C00000011 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
-		A20001041F8A0A8C00000012 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		A20001061F8A0A8C00000013 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		A30001001F8A0A8C00000020 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
-		A30001021F8A0A8C00000021 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		A30001041F8A0A8C00000022 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
-		A30001061F8A0A8C00000023 /* UserIdentityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIdentityManager.swift; sourceTree = "<group>"; };
-		A30001081F8A0A8C00000024 /* QuizStreamParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizStreamParser.swift; sourceTree = "<group>"; };
-		A40001001F8A0A8C00000030 /* BibleAdventureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAdventureViewModel.swift; sourceTree = "<group>"; };
-		A40001021F8A0A8C00000031 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
-		A40001041F8A0A8C00000032 /* ScoringSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringSystem.swift; sourceTree = "<group>"; };
-		A50001001F8A0A8C00000040 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		A50001021F8A0A8C00000041 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		A50001041F8A0A8C00000042 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		A60001001F8A0A8C00000050 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
-		A60001021F8A0A8C00000051 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
-		A60001041F8A0A8C00000052 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViews.swift; sourceTree = "<group>"; };
-		A70001001F8A0A8C00000060 /* AdventureMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureMapView.swift; sourceTree = "<group>"; };
-		A70001021F8A0A8C00000061 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
-		A70001041F8A0A8C00000062 /* CardUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUnlockView.swift; sourceTree = "<group>"; };
-		A80001001F8A0A8C00000070 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		A80001021F8A0A8C00000071 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		A80001041F8A0A8C00000072 /* QuestionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTypes.swift; sourceTree = "<group>"; };
-		A80001061F8A0A8C00000073 /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
-		A90001001F8A0A8C00000080 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		AA0001001F8A0A8C00000085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA0001021F8A0A8C00000086 /* ABVios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ABVios.entitlements; sourceTree = "<group>"; };
+		1A0000FF1F8A0A8C00000000 /* ABVios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABVios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0001001F8A0A8C00000001 /* ABViosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABViosApp.swift; sourceTree = "<group>"; };
+		1A0001021F8A0A8C00000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A0001041F8A0A8C00000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0001081F8A0A8C00000004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A2001001F8A0A8C00000010 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		1A2001021F8A0A8C00000011 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		1A2001041F8A0A8C00000012 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1A2001061F8A0A8C00000013 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1A3001001F8A0A8C00000020 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1A3001021F8A0A8C00000021 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		1A3001041F8A0A8C00000022 /* CacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		1A3001061F8A0A8C00000023 /* UserIdentityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIdentityManager.swift; sourceTree = "<group>"; };
+		1A3001081F8A0A8C00000024 /* QuizStreamParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizStreamParser.swift; sourceTree = "<group>"; };
+		1A4001001F8A0A8C00000030 /* BibleAdventureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleAdventureViewModel.swift; sourceTree = "<group>"; };
+		1A4001021F8A0A8C00000031 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		1A4001041F8A0A8C00000032 /* ScoringSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringSystem.swift; sourceTree = "<group>"; };
+		1A5001001F8A0A8C00000040 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1A5001021F8A0A8C00000041 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1A5001041F8A0A8C00000042 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		1A6001001F8A0A8C00000050 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		1A6001021F8A0A8C00000051 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
+		1A6001041F8A0A8C00000052 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViews.swift; sourceTree = "<group>"; };
+		1A7001001F8A0A8C00000060 /* AdventureMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureMapView.swift; sourceTree = "<group>"; };
+		1A7001021F8A0A8C00000061 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		1A7001041F8A0A8C00000062 /* CardUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUnlockView.swift; sourceTree = "<group>"; };
+		1A8001001F8A0A8C00000070 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		1A8001021F8A0A8C00000071 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		1A8001041F8A0A8C00000072 /* QuestionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTypes.swift; sourceTree = "<group>"; };
+		1A8001061F8A0A8C00000073 /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		1A9001001F8A0A8C00000080 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1AA001001F8A0A8C00000085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA001021F8A0A8C00000086 /* ABVios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ABVios.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A10000FC1F8A0A8C00000000 /* Frameworks */ = {
+		1A0000FC1F8A0A8C00000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0001001F8A0A8C00000090 /* SDWebImageSwiftUI in Frameworks */,
+				1AB001001F8A0A8C00000090 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A10000F61F8A0A8C00000000 = {
+		1A0000F61F8A0A8C00000000 = {
 			isa = PBXGroup;
 			children = (
-				A10001011F8A0A8C00000000 /* ABVios */,
-				A10001001F8A0A8C00000000 /* Products */,
+				1A0001011F8A0A8C00000000 /* ABVios */,
+				1A0001001F8A0A8C00000000 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A10001001F8A0A8C00000000 /* Products */ = {
+		1A0001001F8A0A8C00000000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000FF1F8A0A8C00000000 /* ABVios.app */,
+				1A0000FF1F8A0A8C00000000 /* ABVios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A10001011F8A0A8C00000000 /* ABVios */ = {
+		1A0001011F8A0A8C00000000 /* ABVios */ = {
 			isa = PBXGroup;
 			children = (
-				A10001101F8A0A8C00000000 /* App */,
-				A20001101F8A0A8C00000000 /* Core */,
-				A60001101F8A0A8C00000000 /* Views */,
-				AA0001101F8A0A8C00000000 /* Resources */,
-				A10001051F8A0A8C00000000 /* Preview Content */,
+				1A0001101F8A0A8C00000000 /* App */,
+				1A2001101F8A0A8C00000000 /* Core */,
+				1A6001101F8A0A8C00000000 /* Views */,
+				1AA001101F8A0A8C00000000 /* Resources */,
+				1A0001051F8A0A8C00000000 /* Preview Content */,
 			);
 			path = ABVios;
 			sourceTree = "<group>";
 		};
-		A10001051F8A0A8C00000000 /* Preview Content */ = {
+		1A0001051F8A0A8C00000000 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A10001081F8A0A8C00000004 /* Preview Assets.xcassets */,
+				1A0001081F8A0A8C00000004 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A10001101F8A0A8C00000000 /* App */ = {
+		1A0001101F8A0A8C00000000 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				A10001001F8A0A8C00000001 /* ABViosApp.swift */,
-				A10001021F8A0A8C00000002 /* ContentView.swift */,
+				1A0001001F8A0A8C00000001 /* ABViosApp.swift */,
+				1A0001021F8A0A8C00000002 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		A20001101F8A0A8C00000000 /* Core */ = {
+		1A2001101F8A0A8C00000000 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A20001111F8A0A8C00000000 /* Models */,
-				A30001111F8A0A8C00000000 /* Services */,
-				A40001111F8A0A8C00000000 /* ViewModels */,
-				A50001111F8A0A8C00000000 /* Utils */,
+				1A2001111F8A0A8C00000000 /* Models */,
+				1A3001111F8A0A8C00000000 /* Services */,
+				1A4001111F8A0A8C00000000 /* ViewModels */,
+				1A5001111F8A0A8C00000000 /* Utils */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		A20001111F8A0A8C00000000 /* Models */ = {
+		1A2001111F8A0A8C00000000 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A20001001F8A0A8C00000010 /* Chapter.swift */,
-				A20001021F8A0A8C00000011 /* Quiz.swift */,
-				A20001041F8A0A8C00000012 /* User.swift */,
-				A20001061F8A0A8C00000013 /* Card.swift */,
+				1A2001001F8A0A8C00000010 /* Chapter.swift */,
+				1A2001021F8A0A8C00000011 /* Quiz.swift */,
+				1A2001041F8A0A8C00000012 /* User.swift */,
+				1A2001061F8A0A8C00000013 /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		A30001111F8A0A8C00000000 /* Services */ = {
+		1A3001111F8A0A8C00000000 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				A30001001F8A0A8C00000020 /* APIService.swift */,
-				A30001021F8A0A8C00000021 /* AuthService.swift */,
-				A30001041F8A0A8C00000022 /* CacheService.swift */,
-				A30001061F8A0A8C00000023 /* UserIdentityManager.swift */,
-				A30001081F8A0A8C00000024 /* QuizStreamParser.swift */,
+				1A3001001F8A0A8C00000020 /* APIService.swift */,
+				1A3001021F8A0A8C00000021 /* AuthService.swift */,
+				1A3001041F8A0A8C00000022 /* CacheService.swift */,
+				1A3001061F8A0A8C00000023 /* UserIdentityManager.swift */,
+				1A3001081F8A0A8C00000024 /* QuizStreamParser.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		A40001111F8A0A8C00000000 /* ViewModels */ = {
+		1A4001111F8A0A8C00000000 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				A40001001F8A0A8C00000030 /* BibleAdventureViewModel.swift */,
-				A40001021F8A0A8C00000031 /* QuizViewModel.swift */,
-				A40001041F8A0A8C00000032 /* ScoringSystem.swift */,
+				1A4001001F8A0A8C00000030 /* BibleAdventureViewModel.swift */,
+				1A4001021F8A0A8C00000031 /* QuizViewModel.swift */,
+				1A4001041F8A0A8C00000032 /* ScoringSystem.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		A50001111F8A0A8C00000000 /* Utils */ = {
+		1A5001111F8A0A8C00000000 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A50001001F8A0A8C00000040 /* Constants.swift */,
-				A50001021F8A0A8C00000041 /* Extensions.swift */,
-				A50001041F8A0A8C00000042 /* Helpers.swift */,
+				1A5001001F8A0A8C00000040 /* Constants.swift */,
+				1A5001021F8A0A8C00000041 /* Extensions.swift */,
+				1A5001041F8A0A8C00000042 /* Helpers.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		A60001101F8A0A8C00000000 /* Views */ = {
+		1A6001101F8A0A8C00000000 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A60001111F8A0A8C00000000 /* Main */,
-				A70001111F8A0A8C00000000 /* BibleAdventure */,
-				A80001111F8A0A8C00000000 /* Quiz */,
-				A90001111F8A0A8C00000000 /* Auth */,
+				1A6001111F8A0A8C00000000 /* Main */,
+				1A7001111F8A0A8C00000000 /* BibleAdventure */,
+				1A8001111F8A0A8C00000000 /* Quiz */,
+				1A9001111F8A0A8C00000000 /* Auth */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A60001111F8A0A8C00000000 /* Main */ = {
+		1A6001111F8A0A8C00000000 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				A60001001F8A0A8C00000050 /* TabView.swift */,
-				A60001021F8A0A8C00000051 /* StudyView.swift */,
-				A60001041F8A0A8C00000052 /* PlaceholderViews.swift */,
+				1A6001001F8A0A8C00000050 /* TabView.swift */,
+				1A6001021F8A0A8C00000051 /* StudyView.swift */,
+				1A6001041F8A0A8C00000052 /* PlaceholderViews.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		A70001111F8A0A8C00000000 /* BibleAdventure */ = {
+		1A7001111F8A0A8C00000000 /* BibleAdventure */ = {
 			isa = PBXGroup;
 			children = (
-				A70001001F8A0A8C00000060 /* AdventureMapView.swift */,
-				A70001021F8A0A8C00000061 /* TopBarView.swift */,
-				A70001041F8A0A8C00000062 /* CardUnlockView.swift */,
+				1A7001001F8A0A8C00000060 /* AdventureMapView.swift */,
+				1A7001021F8A0A8C00000061 /* TopBarView.swift */,
+				1A7001041F8A0A8C00000062 /* CardUnlockView.swift */,
 			);
 			path = BibleAdventure;
 			sourceTree = "<group>";
 		};
-		A80001111F8A0A8C00000000 /* Quiz */ = {
+		1A8001111F8A0A8C00000000 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				A80001001F8A0A8C00000070 /* QuizView.swift */,
-				A80001021F8A0A8C00000071 /* QuestionView.swift */,
-				A80001041F8A0A8C00000072 /* QuestionTypes.swift */,
-				A80001061F8A0A8C00000073 /* QuizResultView.swift */,
+				1A8001001F8A0A8C00000070 /* QuizView.swift */,
+				1A8001021F8A0A8C00000071 /* QuestionView.swift */,
+				1A8001041F8A0A8C00000072 /* QuestionTypes.swift */,
+				1A8001061F8A0A8C00000073 /* QuizResultView.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
 		};
-		A90001111F8A0A8C00000000 /* Auth */ = {
+		1A9001111F8A0A8C00000000 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				A90001001F8A0A8C00000080 /* LoginView.swift */,
+				1A9001001F8A0A8C00000080 /* LoginView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		AA0001101F8A0A8C00000000 /* Resources */ = {
+		1AA001101F8A0A8C00000000 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AA0001001F8A0A8C00000085 /* Info.plist */,
-				AA0001021F8A0A8C00000086 /* ABVios.entitlements */,
-				A10001041F8A0A8C00000003 /* Assets.xcassets */,
+				1AA001001F8A0A8C00000085 /* Info.plist */,
+				1AA001021F8A0A8C00000086 /* ABVios.entitlements */,
+				1A0001041F8A0A8C00000003 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -250,13 +250,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000FE1F8A0A8C00000000 /* ABVios */ = {
+		1A0000FE1F8A0A8C00000000 /* ABVios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10001131F8A0A8C00000000 /* Build configuration list for PBXNativeTarget "ABVios" */;
+			buildConfigurationList = 1A0001131F8A0A8C00000000 /* Build configuration list for PBXNativeTarget "ABVios" */;
 			buildPhases = (
-				A10000FB1F8A0A8C00000000 /* Sources */,
-				A10000FC1F8A0A8C00000000 /* Frameworks */,
-				A10000FD1F8A0A8C00000000 /* Resources */,
+				1A0000FB1F8A0A8C00000000 /* Sources */,
+				1A0000FC1F8A0A8C00000000 /* Frameworks */,
+				1A0000FD1F8A0A8C00000000 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -264,28 +264,28 @@
 			);
 			name = ABVios;
 			packageProductDependencies = (
-				AB0001001F8A0A8C00000090 /* SDWebImageSwiftUI */,
+				1AB001001F8A0A8C00000090 /* SDWebImageSwiftUI */,
 			);
 			productName = ABVios;
-			productReference = A10000FF1F8A0A8C00000000 /* ABVios.app */;
+			productReference = 1A0000FF1F8A0A8C00000000 /* ABVios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A10000F71F8A0A8C00000000 /* Project object */ = {
+		1A0000F71F8A0A8C00000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A10000FE1F8A0A8C00000000 = {
+					1A0000FE1F8A0A8C00000000 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A10000FA1F8A0A8C00000000 /* Build configuration list for PBXProject "ABVios" */;
+			buildConfigurationList = 1A0000FA1F8A0A8C00000000 /* Build configuration list for PBXProject "ABVios" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -293,71 +293,71 @@
 				en,
 				Base,
 			);
-			mainGroup = A10000F61F8A0A8C00000000;
+			mainGroup = 1A0000F61F8A0A8C00000000;
 			packageReferences = (
-				AB0001001F8A0A8C00000091 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				1AB001001F8A0A8C00000091 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
-			productRefGroup = A10001001F8A0A8C00000000 /* Products */;
+			productRefGroup = 1A0001001F8A0A8C00000000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000FE1F8A0A8C00000000 /* ABVios */,
+				1A0000FE1F8A0A8C00000000 /* ABVios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A10000FD1F8A0A8C00000000 /* Resources */ = {
+		1A0000FD1F8A0A8C00000000 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10001081F8A0A8C00000004 /* Preview Assets.xcassets in Resources */,
-				A10001041F8A0A8C00000003 /* Assets.xcassets in Resources */,
+				1A0001081F8A0A8C00000004 /* Preview Assets.xcassets in Resources */,
+				1A0001041F8A0A8C00000003 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A10000FB1F8A0A8C00000000 /* Sources */ = {
+		1A0000FB1F8A0A8C00000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10001021F8A0A8C00000002 /* ContentView.swift in Sources */,
-				A10001001F8A0A8C00000001 /* ABViosApp.swift in Sources */,
-				A20001001F8A0A8C00000010 /* Chapter.swift in Sources */,
-				A20001021F8A0A8C00000011 /* Quiz.swift in Sources */,
-				A20001041F8A0A8C00000012 /* User.swift in Sources */,
-				A20001061F8A0A8C00000013 /* Card.swift in Sources */,
-				A30001001F8A0A8C00000020 /* APIService.swift in Sources */,
-				A30001021F8A0A8C00000021 /* AuthService.swift in Sources */,
-				A30001041F8A0A8C00000022 /* CacheService.swift in Sources */,
-				A30001061F8A0A8C00000023 /* UserIdentityManager.swift in Sources */,
-				A30001081F8A0A8C00000024 /* QuizStreamParser.swift in Sources */,
-				A40001001F8A0A8C00000030 /* BibleAdventureViewModel.swift in Sources */,
-				A40001021F8A0A8C00000031 /* QuizViewModel.swift in Sources */,
-				A40001041F8A0A8C00000032 /* ScoringSystem.swift in Sources */,
-				A50001001F8A0A8C00000040 /* Constants.swift in Sources */,
-				A50001021F8A0A8C00000041 /* Extensions.swift in Sources */,
-				A50001041F8A0A8C00000042 /* Helpers.swift in Sources */,
-				A60001001F8A0A8C00000050 /* TabView.swift in Sources */,
-				A60001021F8A0A8C00000051 /* StudyView.swift in Sources */,
-				A60001041F8A0A8C00000052 /* PlaceholderViews.swift in Sources */,
-				A70001001F8A0A8C00000060 /* AdventureMapView.swift in Sources */,
-				A70001021F8A0A8C00000061 /* TopBarView.swift in Sources */,
-				A70001041F8A0A8C00000062 /* CardUnlockView.swift in Sources */,
-				A80001001F8A0A8C00000070 /* QuizView.swift in Sources */,
-				A80001021F8A0A8C00000071 /* QuestionView.swift in Sources */,
-				A80001041F8A0A8C00000072 /* QuestionTypes.swift in Sources */,
-				A80001061F8A0A8C00000073 /* QuizResultView.swift in Sources */,
-				A90001001F8A0A8C00000080 /* LoginView.swift in Sources */,
+				1A0001021F8A0A8C00000002 /* ContentView.swift in Sources */,
+				1A0001001F8A0A8C00000001 /* ABViosApp.swift in Sources */,
+				1A2001001F8A0A8C00000010 /* Chapter.swift in Sources */,
+				1A2001021F8A0A8C00000011 /* Quiz.swift in Sources */,
+				1A2001041F8A0A8C00000012 /* User.swift in Sources */,
+				1A2001061F8A0A8C00000013 /* Card.swift in Sources */,
+				1A3001001F8A0A8C00000020 /* APIService.swift in Sources */,
+				1A3001021F8A0A8C00000021 /* AuthService.swift in Sources */,
+				1A3001041F8A0A8C00000022 /* CacheService.swift in Sources */,
+				1A3001061F8A0A8C00000023 /* UserIdentityManager.swift in Sources */,
+				1A3001081F8A0A8C00000024 /* QuizStreamParser.swift in Sources */,
+				1A4001001F8A0A8C00000030 /* BibleAdventureViewModel.swift in Sources */,
+				1A4001021F8A0A8C00000031 /* QuizViewModel.swift in Sources */,
+				1A4001041F8A0A8C00000032 /* ScoringSystem.swift in Sources */,
+				1A5001001F8A0A8C00000040 /* Constants.swift in Sources */,
+				1A5001021F8A0A8C00000041 /* Extensions.swift in Sources */,
+				1A5001041F8A0A8C00000042 /* Helpers.swift in Sources */,
+				1A6001001F8A0A8C00000050 /* TabView.swift in Sources */,
+				1A6001021F8A0A8C00000051 /* StudyView.swift in Sources */,
+				1A6001041F8A0A8C00000052 /* PlaceholderViews.swift in Sources */,
+				1A7001001F8A0A8C00000060 /* AdventureMapView.swift in Sources */,
+				1A7001021F8A0A8C00000061 /* TopBarView.swift in Sources */,
+				1A7001041F8A0A8C00000062 /* CardUnlockView.swift in Sources */,
+				1A8001001F8A0A8C00000070 /* QuizView.swift in Sources */,
+				1A8001021F8A0A8C00000071 /* QuestionView.swift in Sources */,
+				1A8001041F8A0A8C00000072 /* QuestionTypes.swift in Sources */,
+				1A8001061F8A0A8C00000073 /* QuizResultView.swift in Sources */,
+				1A9001001F8A0A8C00000080 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A10001111F8A0A8C00000000 /* Debug */ = {
+		1A0001111F8A0A8C00000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		A10001121F8A0A8C00000000 /* Release */ = {
+		1A0001121F8A0A8C00000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -476,7 +476,7 @@
 			};
 			name = Release;
 		};
-		A10001141F8A0A8C00000000 /* Debug */ = {
+		1A0001141F8A0A8C00000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -508,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		A10001151F8A0A8C00000000 /* Release */ = {
+		1A0001151F8A0A8C00000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -543,20 +543,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A10000FA1F8A0A8C00000000 /* Build configuration list for PBXProject "ABVios" */ = {
+		1A0000FA1F8A0A8C00000000 /* Build configuration list for PBXProject "ABVios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10001111F8A0A8C00000000 /* Debug */,
-				A10001121F8A0A8C00000000 /* Release */,
+				1A0001111F8A0A8C00000000 /* Debug */,
+				1A0001121F8A0A8C00000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10001131F8A0A8C00000000 /* Build configuration list for PBXNativeTarget "ABVios" */ = {
+		1A0001131F8A0A8C00000000 /* Build configuration list for PBXNativeTarget "ABVios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10001141F8A0A8C00000000 /* Debug */,
-				A10001151F8A0A8C00000000 /* Release */,
+				1A0001141F8A0A8C00000000 /* Debug */,
+				1A0001151F8A0A8C00000000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -564,7 +564,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AB0001001F8A0A8C00000091 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		1AB001001F8A0A8C00000091 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -575,12 +575,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AB0001001F8A0A8C00000090 /* SDWebImageSwiftUI */ = {
+		1AB001001F8A0A8C00000090 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AB0001001F8A0A8C00000091 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = 1AB001001F8A0A8C00000091 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A10000F71F8A0A8C00000000 /* Project object */;
+	rootObject = 1A0000F71F8A0A8C00000000 /* Project object */;
 }
